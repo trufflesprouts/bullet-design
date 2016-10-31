@@ -1,0 +1,107 @@
+section {
+    margin-bottom: 50px;
+}
+
+@media screen and (min-width: 768px) {
+    section {
+        margin-bottom: 120px;
+    }    
+}
+
+/* ABOUT */
+
+#aboutUs {
+    background-color: rgb(234, 185, 195); /* Fallback */
+    background: -webkit-linear-gradient(#f7bab9, #e3daef);
+    background: linear-gradient(#f7bab9, #e3daef);
+    padding: 30px;
+}
+
+#aboutUs h2 {
+    font-family: 'Clearface T.', "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-weight: 700;
+    font-size: 3.6em;
+    color: black;
+    text-align: left;
+    margin: 100px 13% 0 13%;
+}
+
+#aboutUs p {
+    font-size: 1.2em;
+    color: white;
+    letter-spacing: 1px;
+    word-wrap: break-word;
+    text-align: justify;
+    text-justify: inter-word;
+    margin: 25px 13% 100px 13%;
+}
+
+@media screen and (max-width: 768px) {
+    #aboutUs h2 {
+        font-size: 2.5em;
+        margin: 5px 5px 0 5px;
+    }
+    
+    #aboutUs p {
+        margin: 20px 5px 5px 5px;
+    }
+}
+
+/* CONTACT */
+
+#contact {
+    padding-right: 0;
+}
+
+#contact h2 {
+    margin-left: 15px;
+    font-family: 'Clearface T.', "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 3.6em;
+}
+
+#contact p {
+    margin-left: 15px;
+    font-size: 1.2em;
+    margin-bottom: 1px;
+    letter-spacing: 1px;
+    color: black;
+}
+
+.contactLeft {
+    margin-bottom: 50px;
+}
+
+#instagram :hover {
+    color: #C2019A;
+}
+
+#twitter :hover {
+    color: #11C1FF;
+}
+
+#behance :hover {
+    color: dimgray;
+}
+
+#vimeo :hover {
+    color: #23B6EA;
+}
+
+/* SERVICES */
+#services h2 {
+    font-family: 'Clearface T.', "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 3.6em;
+    margin-left: 15px;
+    margin-bottom: 40px;
+}
+
+#services ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#services li {
+    font-size: 1.2em;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}

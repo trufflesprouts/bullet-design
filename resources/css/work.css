@@ -1,0 +1,38 @@
+body {
+    margin-bottom: 120px;
+}
+
+.project {
+    margin: 32px 0;
+}
+
+.project img {
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.projectImgDiv {
+    position: relative;
+    background-color: black;
+}
+
+.projectText {
+    position: absolute;
+    font-family: "Courier New", Courier, monospace;
+    bottom: 2%;
+    right: 5%;
+    color: white;
+    font-size: 1em;
+    opacity: 0;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.project:hover img {
+    opacity: 0.5;
+}
+
+.project:hover .projectText {
+    cursor: pointer;
+    opacity: 1;
+}

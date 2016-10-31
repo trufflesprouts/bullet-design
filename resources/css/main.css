@@ -1,0 +1,102 @@
+/* FONTS */
+@font-face {
+    font-family: 'Clearface T.';
+    src: url('../fonts/clearface_t.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Clearface T.';
+    src: url('../fonts/clearface_heavy_t.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Clearface T.';
+    src: url('../fonts/clearface_black_t.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura LT';
+    src: url('../fonts/futuralt_book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura LT';
+    src: url('../fonts/futuralt_bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+* {
+    font-family: 'Futura LT', "Trebuchet MS", Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+
+/*   HEADER   */
+
+header {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding-right: 0;
+}
+
+header img {
+    height: 45px;
+    width: 133.3px;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 11px;
+    
+}
+
+.navBtn {
+    display: inline-block;
+    margin-left: 40px;
+    
+}
+
+
+.navBtn a {
+    font-size: 1.3em;
+    color: black;
+}
+
+
+a,
+a:hover,
+a:visited,
+a:active {
+    text-decoration: none !important;
+}
+
+.navBtn a:hover {
+    color: #fbdb0c;
+}
+
+.dropdown {
+    width: 70%;
+    margin: 30px auto -30px auto;
+}
+
+header button {
+    background-color:  #ffd9a6;
+    width: 100%;
+}
+
+header .dropdown-menu {
+    width: 100%;
+}
